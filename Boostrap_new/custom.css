@@ -1,0 +1,94 @@
+
+body{
+    margin: 0 !important;
+    padding: 0 !important;
+    
+}
+.custom-textarea{
+    resize: none;
+}
+
+#scrollspyHeading2{
+    height: 800px;
+    margin-top: 40px;
+    margin-left:10px;
+    padding-top: 85px;  /* Correct the scrollspy offset */
+    width: 99%;
+
+
+}
+
+
+.container-mt-5 .card{
+    height: 500px;
+    background-color: black;
+    color: aqua;
+}
+.container-mt-5 .card-header{
+    font-style: italic ;
+    font-weight: bold;
+    color:azure;
+}
+
+.card-body .row{
+    margin-top: 28px;
+    
+}
+
+/* About */
+#aboutme{
+    background-color: black;
+    margin-top: 150px;
+    padding: 50px;
+    display: flex;
+    padding-top: 170px;
+}
+#leftAbout{
+    width: 50%;
+}
+#leftAbout img{
+    width: 90%;
+    height:80%;
+    align-self: center;
+    margin-top: 40px;
+}
+.rightAbout{
+    width: 50%;
+    font-family: 'Caveat', cursive;
+    margin-left: 80px;
+    font-size: larger;
+    opacity: 0;
+    transform: scale(0.1);
+    transition: all 1.0s ease-in;
+}
+
+.active{
+    opacity: 1;
+    transform: scale(1);
+}
+#rightAbout h3{
+    color: azure;
+}
+
+#rightAbout p{
+    color: aliceblue;
+    
+}
+.submission{
+    display: flex;
+    
+}
+
+.submission p{
+    margin-left: 30px;
+}
+
+.images img{
+    width: 100%;
+    height: 900px;
+}
+.navbar-brand{
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-weight: bolder;
+    font-size: larger;
+}
